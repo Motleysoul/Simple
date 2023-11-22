@@ -1,0 +1,29 @@
+$font-basic: 'Roboto', sans-serif;
+$font-accent: 'Ubuntu', sans-serif;
+
+$middle-gray: #85859B;
+$dark-gray: #666;
+$light-gray: #EBEBEB;
+$extra-dark-gray: #4C5866;
+$black: #333;
+$white: #FFF;
+$violet: #7875FE;
+
+@mixin basic-text {
+    color: $middle-gray;
+font-family: $font-basic;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+}
+
+@mixin title {
+    color: $dark-gray;
+font-family: $font-basic;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
