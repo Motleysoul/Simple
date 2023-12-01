@@ -9,6 +9,9 @@ $white: #FFF;
 $violet: #7875FE;
 $second-light-grey: #B5B5BD;
 $grey: #C4C4C4;
+$border-grey-opacity: rgba(221, 221, 221, 0.2);
+$border-grey: rgba(221, 221, 221, 1);
+$border-grey-dark: #C0C0C0;
 
 @mixin basic-text {
     color: $middle-grey;
