@@ -1,16 +1,17 @@
 $font-basic: 'Roboto', sans-serif;
-$font-accent: 'Ubuntu', sans-serif;
 
-$middle-gray: #85859B;
-$dark-gray: #666;
-$light-gray: #EBEBEB;
-$extra-dark-gray: #4C5866;
+$middle-grey: #85859B;
+$dark-grey: #666;
+$light-grey: #EBEBEB;
+$extra-dark-grey: #4C5866;
 $black: #333;
 $white: #FFF;
 $violet: #7875FE;
+$second-light-grey: #B5B5BD;
+$grey: #C4C4C4;
 
 @mixin basic-text {
-    color: $middle-gray;
+    color: $middle-grey;
 font-family: $font-basic;
 font-size: 16px;
 font-style: normal;
@@ -19,11 +20,11 @@ line-height: 170%;
 }
 
 @mixin title {
-    color: $dark-gray;
+    color: $dark-grey;
 font-family: $font-basic;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 100%;
 
 }

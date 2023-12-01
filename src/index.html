@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="body-wrapper">
     @@include('blocks/header.html')
     <main class="main">
       <section class="promo">
-        <h1 class="promo__title">Простые вещи. Из бумаги</h1>
+        <h1 class="promo__title">Простые вещи. <br>Из бумаги</h1>
         <p class="promo__desc">
           Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.
         </p>
@@ -41,13 +42,12 @@
         <img class="materials__img" src="./img/materials.png" alt="Пример коробки">
         <h2 class="materials__title section-title">Максимальная белизна</h2>
         <p class="materials__desc section-desc">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
-        Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+        <br>Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
       </section>
       <section class="catalog">
         <ul class="catalog__list">
           <li class="catalog__item">
             <div class="catalog__img">
-              <img src="./img/catalog1.png" alt="Упаковка">
             </div>
             <h2 class="catalog__title section-title">Упаковка</h2>
             <span class="catalog__sign">Тираж: от 50 штук</span>
@@ -61,7 +61,6 @@
           </li>
           <li class="catalog__item">
             <div class="catalog__img">
-              <img src="./img/catalog2.png" alt="Пакет бумажый">
             </div>
             <h2 class="catalog__title section-title">Пакеты</h2>
             <span class="catalog__sign">Тираж: от 200 штук</span>
@@ -75,7 +74,6 @@
           </li>
           <li class="catalog__item">
             <div class="catalog__img">
-              <img src="./img/catalog3.png" alt="Кейс">
             </div>
             <h2 class="catalog__title section-title">Кейсы</h2>
             <span class="catalog__sign">Тираж: от 30 штук</span>
@@ -89,7 +87,6 @@
           </li>
           <li class="catalog__item">
             <div class="catalog__img">
-              <img src="./img/catalog4.png" alt="Бейдж">
             </div>
             <h2 class="catalog__title section-title">Другие изделия </h2>
             <span class="catalog__sign">Тираж: от 100 штук</span>
@@ -131,7 +128,7 @@
     </main>
     @@include('blocks/footer.html')
 </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/index.bundle.js"></script>
 </body>
 </html>

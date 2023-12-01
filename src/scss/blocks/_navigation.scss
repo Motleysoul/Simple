@@ -1,0 +1,16 @@
+.navigation{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.navigation__btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: $white;
+    background-image: url(../../img/svg/List.svg);
+}
+
+.navigation__menu{
+    display: none;
+}

@@ -2,3 +2,14 @@
     flex-grow: 0;
     flex-shrink: 0;
 }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.header__logo{
+    margin: 0 auto;
+    margin-bottom: 27px;
+}

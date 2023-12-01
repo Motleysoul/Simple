@@ -1,0 +1,38 @@
+.materials{
+    padding: 60px 15px;
+    background-color: $light-grey;
+}
+
+.materials__list{
+    margin-bottom: 60px;
+}
+
+.materials__item{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 48px 48px;
+    justify-content: space-between;
+}
+
+.materials__item-img{
+    grid-row: 1/3;
+}
+
+.materials__item-title{
+    align-self: self-end;
+}
+
+.materials__img{
+    width: 290px;
+    margin-bottom: 20px;
+}
+
+.materials__title{
+    margin-bottom: 14px;
+}
+
+.materials__desc{
+    @include basic-text;
+}

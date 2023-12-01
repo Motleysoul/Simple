@@ -1,0 +1,1 @@
+new Swiper(".swiper",{loop:!0,mousewheel:!0});

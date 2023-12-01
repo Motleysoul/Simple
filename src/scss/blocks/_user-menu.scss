@@ -1,0 +1,22 @@
+.user-menu{
+    margin: 0;
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.user-menu__search-input{
+    display: none;
+}
+
+.user-menu__item{
+    width: 24px;
+    height: 24px;
+}
+
+.user-menu__search, .user-menu__enter{
+    border: none;
+    background-color: inherit;
+}
