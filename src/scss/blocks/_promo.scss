@@ -2,6 +2,15 @@
     padding: 49px 15px;
 }
 
+@media (min-width: $tablet-min-width) {
+    .promo{
+        padding: 60px 32px;
+        background-image: url('../img/promo-back.png');
+        background-repeat: no-repeat;
+        background-position: bottom 0px right 33px;
+    }
+}
+
 .promo__title{
     margin-bottom: 15px;
     color: $extra-dark-grey;
@@ -10,7 +19,20 @@
     line-height: 100%;
 }
 
+@media (min-width: $tablet-min-width) {
+    .promo__title{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
+
 .promo__desc{
     @include basic-text;
     margin-bottom: 21px;
+}
+
+@media (min-width: $tablet-min-width) {
+    .promo__desc{
+        width: 287px;
+    }
 }
