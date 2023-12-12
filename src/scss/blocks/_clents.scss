@@ -3,6 +3,13 @@
     background-color: $light-grey;
 }
 
+@media (min-width: $tablet-min-width) {
+    .swiper-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+    }
+}
+
 .clients__item{
     box-sizing: border-box;
     width: 150px !important;
@@ -10,6 +17,13 @@
     padding: 20px 17px 27px;
     margin-right: 30px;
     border: 1px solid $grey;
+}
+
+@media (min-width: $tablet-min-width) {
+    .clients__item{
+       width: 240px !important;
+       height: 127px !important;
+    }
 }
 
 .clients__item img{

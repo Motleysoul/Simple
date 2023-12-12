@@ -15,3 +15,9 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     mousewheel: true,
   });
+
+  window.addEventListener('resize', function() {
+    if (window.innerWidth >= 575) {
+      swiper.disable();
+    }
+  });
