@@ -1,7 +1,19 @@
 .example{
     padding: 60px 15px;
 }
+@media (min-width: $tablet-min-width) {
+    .example{
+        padding: 60px 33px;
+    }
+}
 
+@media (min-width: $tablet-min-width) {
+    .example__img{
+        display: block;
+        margin: 0 auto;
+        width: 449px;
+    }
+}
 .example__title{
     margin-bottom: 20px;
 }
