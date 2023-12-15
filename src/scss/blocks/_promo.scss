@@ -11,6 +11,14 @@
     }
 }
 
+@media (min-width: $tablet-width) {
+    .promo{
+        padding: 65px 39px;
+        background-position: top 60px right 39px;
+        background-size: 270px;
+    }
+}
+
 .promo__title{
     margin-bottom: 15px;
     color: $extra-dark-grey;
@@ -26,6 +34,13 @@
     }
 }
 
+@media (min-width: $tablet-width) {
+    .promo__title{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
 .promo__desc{
     @include basic-text;
     margin-bottom: 21px;
@@ -34,5 +49,13 @@
 @media (min-width: $tablet-min-width) {
     .promo__desc{
         width: 287px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .promo__desc{
+        width: 390px;
+        font-size: 18px;
+        margin-bottom: 30px;
     }
 }

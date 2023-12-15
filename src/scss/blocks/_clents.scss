@@ -10,6 +10,12 @@
 }
 
 @media (min-width: $tablet-min-width) {
+    .clients{
+        padding: 60px 39px;
+    }
+}
+
+@media (min-width: $tablet-min-width) {
     .swiper-wrapper{
        display: flex;
        flex-wrap: wrap;
@@ -38,10 +44,18 @@
     }
 }
 
+@media (min-width: $tablet-width) {
+    .clients__item{
+       width: 150px !important;
+       height: 80px !important;
+    }
+}
+
 .clients__item img{
     display: block;
     width: 100%;
 }
+//Не понятные размеры лого в макете
 
 @media (min-width: $tablet-min-width) {
     .clients__item:first-child img{
@@ -59,5 +73,24 @@
     .clients__item:nth-child(4) img{
         width: 196.706px;
         height: 24.459px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .clients__item:first-child img{
+        width: 115.882px;
+        height: 32.593px;
+    }
+    .clients__item:nth-child(2) img{
+        width: 109.412px;
+        height: 31.407px;
+    }
+    .clients__item:nth-child(3) img{
+        width: 132.353px;
+        height: 12.444px;
+    }
+    .clients__item:nth-child(4) img{
+        width: 122.941px;
+        height: 15.407px;
     }
 }

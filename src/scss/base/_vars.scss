@@ -14,8 +14,8 @@ $border-grey: rgba(221, 221, 221, 1);
 $border-grey-dark: #C0C0C0;
 
 $tablet-min-width: 576px;
-$tablet-width: 690px;
-$desktop-width: 1110px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
 
 @mixin basic-text {
     color: $middle-grey;
