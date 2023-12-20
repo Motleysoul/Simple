@@ -19,6 +19,10 @@
     }
 }
 
+.example__img{
+    width: 290px;
+}
+
 @media (min-width: $tablet-min-width) {
     .example__img{
         display: block;
@@ -39,7 +43,7 @@
 
 @media (min-width: $desktop-width) {
     .example__title{
-        font-weight: 40px;
+        font-size: 40px;
     }
 }
 
@@ -76,5 +80,11 @@
     }
     .example__btn{
         grid-column: 1/2;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .example__btn{
+        margin-bottom: 114px;
     }
 }
