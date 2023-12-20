@@ -32,6 +32,21 @@ height: 50px;
   background-color: inherit;
 }
 
+@media (min-width: $tablet-min-width) {
+  .basic-btn{
+    width: 196px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .basic-btn{
+    width: 255px;
+    height: 70px;
+  }
+}
+
 .section-title{
   @include title;
 }

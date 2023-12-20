@@ -14,6 +14,12 @@
     }
 }
 
+@media (min-width: $desktop-max-width) {
+    .catalog{
+        padding: 90px 165px 0px;
+    }
+}
+
 .catalog__list{
     list-style: none;
 }

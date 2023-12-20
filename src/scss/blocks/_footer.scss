@@ -16,6 +16,18 @@
     }
 }
 
+@media (min-width: $tablet-width) {
+    .page-footer__wrapper{
+        padding: 29px 39px;
+    }
+}
+
+@media (min-width: $desktop-max-width) {
+    .page-footer__wrapper{
+        padding: 29px 165px;
+    }
+}
+
 .page-footer__logo{
     padding: 20px 75px;
     border-bottom: 1px solid $border-grey-opacity;

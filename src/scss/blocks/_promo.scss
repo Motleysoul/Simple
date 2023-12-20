@@ -19,6 +19,22 @@
     }
 }
 
+@media (min-width: $desktop-width) {
+    .promo{
+        padding: 130px 39px;
+        background-image: url('../img/promo-back-desktop.png');
+        background-position: bottom 0px right 39px;
+        background-size: 540px;
+    }
+}
+
+@media (min-width: $desktop-max-width) {
+    .promo{
+        padding: 130px 165px;
+        background-position: bottom 0px right 165px;
+    }
+}
+
 .promo__title{
     margin-bottom: 15px;
     color: $extra-dark-grey;
@@ -38,6 +54,12 @@
     .promo__title{
         font-size: 50px;
         margin-bottom: 30px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .promo__title{
+        font-size: 60px;
     }
 }
 
