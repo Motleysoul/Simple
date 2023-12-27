@@ -1,0 +1,99 @@
+.clients{
+    padding: 60px 0px 60px 15px;
+    background-color: $light-grey;
+}
+
+@media (min-width: $tablet-min-width) {
+    .clients{
+        padding: 60px 33px;
+    }
+}
+
+@media (min-width: $tablet-min-width) {
+    .clients{
+        padding: 60px 39px;
+    }
+}
+
+@media (min-width: $desktop-max-width) {
+    .clients{
+        padding: 90px 165px;
+    }
+}
+
+@media (min-width: $tablet-min-width) {
+    .swiper-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+       gap: 30px;
+    }
+}
+
+.clients__item{
+    box-sizing: border-box;
+    width: 150px !important;
+    height: 80px !important;
+    padding: 20px 17px 27px;
+    margin-right: 30px;
+    border: 1px solid $grey;
+}
+
+@media (min-width: $tablet-min-width) {
+    .clients__item{
+        margin: 0;
+        padding: 0;
+       width: 240px !important;
+       height: 127px !important;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .clients__item{
+       width: 150px !important;
+       height: 80px !important;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .clients__item{
+       width: 255px !important;
+       height: 135px !important;
+    }
+}
+
+.clients__item img{
+    display: block;
+    width: 100%;
+}
+//Не понятные размеры лого в макете
+
+.clients__item:first-child{
+    background-image: url(../img/svg/hahnemuehle-logo-vector\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+}
+
+.clients__item:nth-child(2){
+    background-image: url(../img/svg/clients2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+}
+
+.clients__item:nth-child(3){
+    background-image: url(../img/svg/clients3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+}
+
+.clients__item:nth-child(4){
+    background-image: url(../img/svg/clients4.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+}

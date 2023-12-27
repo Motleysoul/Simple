@@ -1,0 +1,90 @@
+.example{
+    padding: 60px 15px;
+}
+@media (min-width: $tablet-min-width) {
+    .example{
+        padding: 60px 33px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .example{
+        padding: 60px 39px;
+    }
+}
+
+@media (min-width: $desktop-max-width) {
+    .example{
+        padding: 90px 165px 0px;
+    }
+}
+
+.example__img{
+    width: 290px;
+}
+
+@media (min-width: $tablet-min-width) {
+    .example__img{
+        display: block;
+        margin: 0 auto;
+        width: 449px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .example__img{
+        width: 730px;
+    }
+}
+
+.example__title{
+    margin-bottom: 20px;
+}
+
+@media (min-width: $desktop-width) {
+    .example__title{
+        font-size: 40px;
+    }
+}
+
+.example__desc{
+    margin-bottom: 30px;
+    line-height: 27px;
+}
+
+//Грид для планшета
+
+@media (min-width: $tablet-width) {
+    .example{
+        display: grid;
+        column-gap: 30px;
+        grid-template-columns: 330px auto;
+        grid-template-rows: auto auto auto;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .example__img{
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .example__title{
+        grid-column: 1/2;
+    }
+    .example__desc{
+        grid-column: 1/2;
+    }
+    .example__btn{
+        grid-column: 1/2;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .example__btn{
+        margin-bottom: 114px;
+    }
+}

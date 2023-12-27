@@ -3,13 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Simple</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  @@include('blocks/header.html')
-  @@include('blocks/footer.html')
+<div class="body-wrapper">
+    @@include('blocks/header.html')
+    <main class="main">
+      <section class="promo">
+        <h1 class="promo__title">Простые вещи. <br>Из бумаги</h1>
+        <p class="promo__desc">
+          Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками.
+        </p>
+        <button class="promo__btn basic-btn">Каталог</button>
+      </section>
+      <section class="materials">
+        <ul class="materials__list">
+          <li class="materials__item">
+            <img class="materials__item-img" src="./img/Buissnes Cards v2 (85x55).png" alt="Пример бумаги">
+            <h3 class="materials__item-title">V.1</h3>
+            <p class="materials__item-desc">Результат вашего обучения</p>
+          </li>
+          <li class="materials__item">
+            <img class="materials__item-img" src="./img/Buissnes Cards v6 (85x55) 1.png" alt="Пример бумаги">
+            <h3 class="materials__item-title">V.2</h3>
+            <p class="materials__item-desc">Результат вашего обучения</p>
+          </li>
+          <li class="materials__item">
+            <img class="materials__item-img" src="./img/Buissnes Cards v5 (85x55) 1.png" alt="Пример бумаги">
+            <h3 class="materials__item-title">V.3</h3>
+            <p class="materials__item-desc">Результат вашего обучения</p>
+          </li>
+        </ul>
+        <div class="materials__wrapper">
+          <img class="materials__img" src="./img/materials-desktop.png" alt="Пример коробки">
+          <div class="materials__text">
+            <h2 class="materials__title section-title">Максимальная белизна</h2>
+            <p class="materials__desc section-desc">Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+            <br>Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+          </div>
+        </div>
+      </section>
+      <section class="catalog">
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <div class="catalog__img">
+            </div>
+            <h2 class="catalog__title section-title">Упаковка</h2>
+            <span class="catalog__sign">Тираж: от 50 штук</span>
+            <p class="catalog__desc">Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+            <a class="catalog__link" href="#">
+              <span class="catalog__link-txt">Подробнее</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+              </svg>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__img">
+            </div>
+            <h2 class="catalog__title section-title">Пакеты</h2>
+            <span class="catalog__sign">Тираж: от 200 штук</span>
+            <p class="catalog__desc">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+            <a class="catalog__link" href="#">
+              <span class="catalog__link-txt">Подробнее</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+              </svg>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__img">
+            </div>
+            <h2 class="catalog__title section-title">Кейсы</h2>
+            <span class="catalog__sign">Тираж: от 30 штук</span>
+            <p class="catalog__desc">Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+            <a class="catalog__link" href="#">
+              <span class="catalog__link-txt">Подробнее</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+              </svg>
+            </a>
+          </li>
+          <li class="catalog__item">
+            <div class="catalog__img">
+            </div>
+            <h2 class="catalog__title section-title">Другие изделия </h2>
+            <span class="catalog__sign">Тираж: от 100 штук</span>
+            <p class="catalog__desc">Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+            <a class="catalog__link" href="#">
+              <span class="catalog__link-txt">Подробнее</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="15" viewBox="0 0 21 15" fill="none">
+                <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+              </svg>
+            </a>
+          </li>
 
+        </ul>
+      </section>
+      <section class="clients">
+        <div class="clients__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide clients__item">
+            </div>
+            <div class="swiper-slide clients__item">
+            </div>
+            <div class="swiper-slide clients__item">
+            </div>
+            <div class="swiper-slide clients__item">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="example">
+        <img class="example__img" src="./img/scetch.png" alt="Скетчбук">
+        <h2 class="example__title section-title">Simple скетчбук</h2>
+        <p class="example__desc section-desc">80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+        <button class="example__btn basic-btn">Каталог</button>
+      </section>
+    </main>
+    @@include('blocks/footer.html')
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/index.bundle.js"></script>
 </body>
 </html>

@@ -1,0 +1,83 @@
+.promo{
+    padding: 49px 15px;
+}
+
+@media (min-width: $tablet-min-width) {
+    .promo{
+        padding: 60px 32px;
+        background-image: url('../img/promo-back.png');
+        background-repeat: no-repeat;
+        background-position: bottom 0px right 33px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .promo{
+        padding: 65px 39px;
+        background-position: top 60px right 39px;
+        background-size: 270px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .promo{
+        padding: 130px 39px;
+        background-image: url('../img/promo-back-desktop.png');
+        background-position: bottom 0px right 39px;
+        background-size: 540px;
+    }
+}
+
+@media (min-width: $desktop-max-width) {
+    .promo{
+        padding: 130px 165px;
+        background-position: bottom 0px right 165px;
+    }
+}
+
+.promo__title{
+    margin-bottom: 15px;
+    color: $extra-dark-grey;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+@media (min-width: $tablet-min-width) {
+    .promo__title{
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .promo__title{
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .promo__title{
+        font-size: 60px;
+    }
+}
+
+.promo__desc{
+    @include basic-text;
+    margin-bottom: 21px;
+}
+
+@media (min-width: $tablet-min-width) {
+    .promo__desc{
+        width: 287px;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .promo__desc{
+        width: 390px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+}
